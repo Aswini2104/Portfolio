@@ -1,0 +1,161 @@
+.project-section {
+    /* background:#ebafaf; */
+    background:
+    radial-gradient(circle at 20% 30%, rgba(242,217,160,.35), transparent 38%),
+    radial-gradient(circle at 85% 25%, rgba(117,22,45,.30), transparent 42%),
+    radial-gradient(circle at 70% 80%, rgba(176,86,113,.22), transparent 38%),
+    radial-gradient(circle at 35% 90%, rgba(242,229,198,.12), transparent 35%),
+    #541122;
+    padding: 80px 0;
+    min-height: 100vh;
+}
+
+.section-title {
+    color:#F5E8E8;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.section-subtitle{
+    color:#F5E8E8;
+}
+.project-card {
+    background: linear-gradient(
+        145deg,
+        #f5ceb3 0%,
+        #f7ceb4 50%,
+        #f7dac7 100%
+    );
+
+    border:1px solid rgba(242,217,160,0.25);
+    border-radius:20px;
+
+    box-shadow:
+        0 12px 30px rgba(0,0,0,0.20),
+        0 4px 10px rgba(117,22,45,0.15);
+
+    transition:all .4s ease;
+    border-radius: 18px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.project-card:hover {
+   
+    transform:translateY(-8px) scale(1.02);
+
+    border:1px solid #F2D9A0;
+
+    box-shadow:
+        0 18px 40px rgba(117,22,45,0.30),
+        0 6px 15px rgba(242,217,160,0.25);
+}
+
+.project-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.project-body {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.project-body h3 {
+    color:#541122;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.project-body p {
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.tech-stack span {
+    background: #8B1E2D;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.project-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin-top: auto;
+}
+
+.live-btn {
+    background: #8B1E2D;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 18px;
+    font-weight: 600;
+}
+
+.live-btn:hover {
+    background: #6d1624;
+    color: white;
+}
+
+.github-btn {
+    border: 2px solid #8B1E2D;
+    color: #8B1E2D;
+    border-radius: 8px;
+    padding: 10px 18px;
+    font-weight: 600;
+}
+
+.github-btn:hover {
+    background: #8B1E2D;
+    color: white;
+}
+
+@media (max-width: 768px) {
+
+    .project-section {
+        padding: 60px 15px;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    .project-img {
+        height: 200px;
+    }
+
+    .project-body {
+        padding: 20px;
+    }
+
+    .project-body h3 {
+        font-size: 22px;
+    }
+
+    .project-buttons {
+        flex-direction: row;
+    }
+
+    .project-buttons .btn {
+        width: 100%;
+    }
+}
