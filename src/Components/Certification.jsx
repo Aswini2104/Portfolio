@@ -33,7 +33,7 @@ function Certification() {
               </p>
 
               <a
-                href="/public/MSME.jpeg"
+                href="/MSME.jpeg"
                 target="_blank"
                 rel="noreferrer"
                 className="btn view-btn"
@@ -65,7 +65,7 @@ function Certification() {
               </p>
 
               <a
-                href="/public/js.jpeg"
+                href="/js.jpeg"
                 target="_blank"
                 rel="noreferrer"
                 className="btn view-btn"
@@ -96,7 +96,7 @@ function Certification() {
               </p>
 
               <a
-                href="/public/DA.jpeg"
+                href="/DA.jpeg"
                 target="_blank"
                 rel="noreferrer"
                 className="btn view-btn"
@@ -127,7 +127,7 @@ function Certification() {
               </p>
 
               <a
-                href="/public/python.jpeg"
+                href="/python.jpeg"
                 target="_blank"
                 rel="noreferrer"
                 className="btn view-btn"
@@ -160,7 +160,7 @@ function Certification() {
               </p>
 
               <a
-                href="/public/Srishti.jpeg"
+                href="/Srishti.jpeg"
                 target="_blank"
                 rel="noreferrer"
                 className="btn view-btn"
@@ -192,7 +192,7 @@ function Certification() {
               </p>
 
               <a
-                href="/public/cloud.jpeg"
+                href="/cloud.jpeg"
                 target="_blank"
                 rel="noreferrer"
                 className="btn view-btn"
