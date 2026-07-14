@@ -128,6 +128,63 @@ function Project() {
             </div>
 
           </div>
+          
+          {/* SkyCast */}
+          <div className="col-12 col-md-6 d-flex">
+            <div className="project-card h-100 w-100 shadow">
+
+              <img
+                src="/pet_shop.png"
+                alt="SkyCast"
+                className="project-img img-fluid"
+              />
+
+              <div className="project-body d-flex flex-column">
+
+                <h3 className="project-title">Pet shop Web application</h3>
+
+                <p className="project-text">
+                  Developed a responsive Pet Shop web application using React.js.
+                  he application allows users to browse pets, navigate between
+                  pages using React Router, and provides a clean, user-friendly 
+                  interface. The project demonstrates component-based architecture,
+                  client-side routing, and responsive web design.
+                </p>
+
+                <div className="tech-stack">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>React.js</span>
+                  <span>React Router DOM</span>
+                  <span>Netlify (Deployment)</span>
+                  <span>GitHub</span>
+                </div>
+
+                <div className="project-buttons mt-auto">
+
+                  <a
+                    href="https://petshop-aswini.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="btn live-btn"
+                  >
+                    Live Demo
+                  </a>
+
+                  <a
+                    href="https://github.com/Aswini2104/Pet_shop.git"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="btn github-btn ms-2"
+                  >
+                    GitHub
+                  </a>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
 
         </div>
 
