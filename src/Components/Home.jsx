@@ -39,7 +39,7 @@ function Home() {
               </p>
 
               <div className="d-flex flex-row flex-sm-row gap-3 justify-content-center justify-content-md-start">
-                <a href="/public/RESUME.PDF" download style={{textDecoration:"none"}}>
+                <a href="/RESUME.PDF" download style={{textDecoration:"none"}}>
                     <button className="resume-btn">
                   Download CV
                 </button>
